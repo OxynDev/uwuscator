@@ -63,10 +63,11 @@ v1.0.0 ⋮ 21/07/2023
 ```
 
 ## Todo
-
-- [] Add class rename
-- [] Add nuitka support
-- [] Add trash code gen
+- [x] test released
+- [] class rename
+- [] class rename
+- [] nuitka support
+- [] trash code gen
 
 
 ## Features
