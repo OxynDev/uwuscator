@@ -9,6 +9,7 @@ Before
 ```python
 import datetime
 import csv
+# Test
 class Product:
     def __init__(self, name, price, quantity):
         self.name = name
@@ -34,25 +35,18 @@ class Inventory:
             print("Inventory:")
             for product in self.products:
                 print(f"Product: {product.name}\tPrice: ${product.price}\tQuantity: {product.quantity}")
-# Create an inventory object
 inventory = Inventory()
-# Add products to the inventory
 product1 = Product("Apple", 0.5, 10)
 product2 = Product("Banana", 0.3, 15)
 product3 = Product("Orange", 0.4, 12)
 inventory.add_product(product1)
 inventory.add_product(product2)
 inventory.add_product(product3)
-# Print the inventory
 inventory.print_inventory()
-# Remove a product from the inventory
 inventory.remove_product(product2)
-# Print the inventory after removing a product
 inventory.print_inventory()
-# Calculate the total value of the inventory
 total_value = inventory.calculate_total_value()
 print(f"Total value of the inventory: ${total_value}")
-# Export the inventory to a CSV file
 timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
 filename = f"inventory_{timestamp}.csv"
 print(f"Inventory exported to {filename}.")
@@ -67,6 +61,12 @@ After
 v1.0.0 ⋮ 21/07/2023
 + released
 ```
+
+## Todo
+
+- [] Add class rename
+- [] Add nuitka support
+- [] Add trash code gen
 
 
 ## Features
