@@ -1,4 +1,4 @@
-# Uwuscator - Python Obfuscator
+# Uwuscator - Python Obfuscator (alfa WIP)
 
 ## Description
 
