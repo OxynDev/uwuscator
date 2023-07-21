@@ -64,7 +64,6 @@ v1.0.0 ⋮ 21/07/2023
 
 ## Todo
 - [ ] class rename
-- [ ] class rename
 - [ ] nuitka support
 - [ ] trash code gen
 - [ ] ints and floats obfuscator
